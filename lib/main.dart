@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Desafio AdF',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -24,17 +24,18 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Center(
         child: SizedBox(
-          width: MediaQuery.of(context).size.width,
+          width: width,
           height: 75,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Stack(
               children: [
                 Container(
-                  width: MediaQuery.of(context).size.width * .037,
+                  width: width * .037,
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.grey.shade600),
                     color: Colors.red,
@@ -50,7 +51,6 @@ class MyHomePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(7),
                     ),
                     prefixIconColor: Colors.black,
-                    fillColor: Colors.white,
                     prefixIconConstraints: const BoxConstraints(minWidth: 65),
                     prefixIcon: const Icon(Icons.notifications),
                   ),
