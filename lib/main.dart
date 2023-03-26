@@ -35,9 +35,10 @@ class MyHomePage extends StatelessWidget {
               children: [
                 Container(
                   width: MediaQuery.of(context).size.width * .037,
-                  decoration: const BoxDecoration(
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.grey.shade600),
                     color: Colors.red,
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(7),
                       bottomLeft: Radius.circular(7),
                     ),
