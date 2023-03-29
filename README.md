@@ -7,5 +7,10 @@ Desafio de criação de widget realizado por Rodrigo Rahman, professor da Academ
 - Flutter
 - Dart
 
+## Exemplo do widget
+
+<img src="https://user-images.githubusercontent.com/93038804/228621699-bed14758-bb79-455b-89f0-d4983d912f3c.png" alt="Notification Widget" title="Barra de Notificação">
+
+
 ## :man_scientist: Contributors
 - Sérgio R. R. Teixeira (@kakosergio)
